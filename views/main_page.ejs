@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+
+			Amnesia
+
+		</title>
+
+		<meta charset="utf-8">
+ 	 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  		<link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+  		 <link rel="stylesheet" type="text/css" href="public/style.css">
+
+
+	</head>
+
+	
+	<body>	
+	<div class="heading">
+	
+		<h1> Message Sender	</h1>
+	
+	</div>
+
+	<div style="height: 50px;">
+
+		
+		
+	</div>
+
+	<div class="current_number">
+
+	<h1>
+		Hello John!!
+	</h1>
+		<h3>
+				Your Current number is <b><%= data %></b>
+		</h3>
+		
+	</div>
+
+	<div style="height: 50px;">
+
+		
+		
+	</div>
+
+	<div class="mobile_form" style="color: white">
+				
+		<div class="container">
+  			
+  			<h2>Change your number</h2>
+  			
+  			<form action="/successfull" method="post">
+    			
+    			<div class="form-group">
+      				
+      				<label for="number">Complete New number (including country code) : </label>
+      				
+      				<input type="text" class="form-control" id="number" placeholder="Enter number" name="number" required/>
+    					
+    			</div>
+    			<!--	
+    			<div class="form-group">
+      				
+      				<label for="pwd">Password:</label>
+      				
+      				<input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pwd" required/>
+    			</div>
+    			-->
+    			
+    			<button type="submit" class="btn btn-default btn-primary">Submit</button>
+ 			</form>
+		</div>
+	
+	</div>
+
+	<div style="height: 50px;">
+
+		
+		
+	</div>
+
+	<div class="check_log">
+
+			<h3>Check the Error Log	</h3>
+			<form action="error_log" method="get">
+				
+				<button type="submit" class="btn btn-default btn-primary">Submit</button>
+
+			</form>
+	</div>
+
+	</body>
+
+	</html>

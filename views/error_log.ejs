@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+
+			Amnesia
+
+		</title>
+
+		<meta charset="utf-8">
+ 	 	<meta name="viewport" content="width=device-width, initial-scale=1">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  		<link rel=stylesheet href="https://s3-us-west-2.amazonaws.com/colors-css/2.2.0/colors.min.css">
+  		 <link rel="stylesheet" type="text/css" href="public/style.css">
+
+
+	</head>
+
+	
+	<body class="table_class">	
+
+		<h2 style="text-align: center;">  Error Log </h2>	<br>		
+		<h3 style="text-align: center;">The application has been running for <%=data2%> hours</h3><br><br>
+			<table class="table table-bordered">
+    <thead>
+      <tr>
+        <th width="60%" style="text-align: center;">Error Message</th>
+        <th width="60%" style="text-align: center;">Time</th>
+        
+      </tr>
+    </thead>
+    <tbody>
+    	
+		<% for(var i=data.length-1;i>=0 ;i--){ %>
+
+				<tr>
+				<td width="70%"><h5> <%= data[i][0] %> </h5></td>
+				<td width="70%"> <%= data[i][1] %> </td>
+				
+			<% };%> 
+			</tr>    
+
+    </tbody>
+  </table>
+  </div>
+	</body>
+
+	</html>

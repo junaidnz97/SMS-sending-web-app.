@@ -1,0 +1,48 @@
+.heading{
+
+	background-color: #99CD4E;
+	color: white;
+	height: 100px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.current_number{
+
+	background-color: #8A0651;
+	color: white;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	height: 150px;
+	text-align: center;
+
+}
+
+.mobile_form{
+
+	background-color: #B94629;
+	color: white;
+	padding-top: 1px;
+	padding-bottom: 1px;
+	height: 100%;
+	text-align: center;
+}
+
+.check_log{
+
+	background-color: #FF851B;
+	color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 100px;
+	text-align: center;
+}
+
+.table_class{
+
+
+	background-color:   #001f3f  ;
+	color: white;
+	
+}
